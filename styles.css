@@ -1,1 +1,93 @@
 
+/* Import fonts (Ensure you have these fonts available or use web fonts from a service like Google Fonts or Adobe Fonts) */
+@import url('https://fonts.googleapis.com/css2?family=Renogare:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Helvetica:wght@400&display=swap');
+
+/* General body styles */
+body {
+    font-family: 'HelveticaLTStd Roman', 'Helvetica', sans-serif;
+    background-color: #000000; /* Black background */
+    color: #DFBE6F; /* Light color for text */
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Renogare', 'Arial', sans-serif;
+    color: #C8B568; /* Accent color for headers */
+    margin: 0.5em 0;
+}
+
+/* Links */
+a {
+    color: #45B1E8; /* Accent color for links */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Navigation */
+nav {
+    background-color: #333333; /* Dark background for navigation */
+    padding: 1em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0;
+}
+
+nav ul li a {
+    color: #C8B568; /* Accent color for navigation links */
+    padding: 0.5em 1em;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #45B1E8; /* Hover background color for navigation links */
+    color: #000000; /* Change text color on hover */
+    border-radius: 5px;
+}
+
+/* Main content */
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Buttons */
+button {
+    font-family: 'Renogare', 'Arial', sans-serif;
+    background-color: #C8B568; /* Accent color for buttons */
+    color: #000000; /* Button text color */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #DFBE6F; /* Hover color for buttons */
+}
+
+/* Footer */
+footer {
+    background-color: #333333; /* Dark background for footer */
+    color: #DFBE6F; /* Light color for footer text */
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
